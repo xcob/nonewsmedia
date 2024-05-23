@@ -20,13 +20,13 @@
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
         <div>
         <div class="grid grid-flow-col gap-4">
-          <a href="https://twitter.com/jrtiquez" target="_blank">
+          <a href="#" target="_blank">
             <i class="lab la-twitter text-4xl"></i>
           </a>
-          <a href="https://facebook.com/ossph.org" target="_blank">
+          <a href="3" target="_blank">
             <i class="lab la-facebook text-4xl"></i>
           </a>
-          <a href="https://facebook.com/ossph.org" target="_blank">
+          <a href="#" target="_blank">
             <i class="lab la-instagram text-4xl"></i>
           </a>
         </div>
