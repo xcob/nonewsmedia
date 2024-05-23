@@ -6,25 +6,16 @@
             <img src="~/assets/images/nnm-logo.png" width="400" />
         </div>
         <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6"></h1>
-        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Nuxtwind Daisy is a starter template project for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.</p>
+        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">No News Media is a light-hearted podcast hosted by two friends who are separated by 10 years. Join in on the fun!</p>
         <div class="flex justify-center space-x-5">
           <a
             data-aos="fade-down"
             data-aos-delay="600"
             class="btn btn-sm md:btn-md btn-primary bg-primary border-primary"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy/fork"
+            href="https://open.spotify.com/show/1loPZ5goey6s8sTGFmYPQH"
             target="_blank"
           >
-            Fork this Project
-          </a>
-          <a
-            data-aos="fade-down"
-            data-aos-delay="600"
-            class="btn btn-sm md:btn-md btn-primary btn-outline"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy"
-            target="_blank"
-          >
-            Give us a star in GitHub
+            Listen on Spotify
           </a>
         </div>
       </div>
