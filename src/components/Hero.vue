@@ -4,8 +4,8 @@
       <div class="text-center align-middle">
         <div class="flex justify-center ">
                 <div class="flex-col">
-                    <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Listen now!</h1>
-                    <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg max-w-lg mb-6">No News Media is a light-hearted podcast hosted by two friends who are separated by 10 years. Join in on the fun!</p>
+                    <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6 text-primary">Listen now!</h1>
+                    <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg max-w-lg mb-6 text-primary">No News Media is a light-hearted podcast hosted by two friends who are separated by 10 years. Join in on the fun!</p>
                     <a
                         data-aos="fade-down"
                         data-aos-delay="600"

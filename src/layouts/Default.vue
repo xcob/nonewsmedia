@@ -58,7 +58,7 @@ export default {
   setup () {
     const theme = ref(null);
     watch(theme, (value) => {
-      localStorage.setItem('daisyui-theme', value);
+      localStorage.setItem('daisyui-theme', 'winter');
     });
     onMounted(() => {
       theme.value = localStorage.getItem('daisyui-theme') || 'dark';
