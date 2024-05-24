@@ -1,7 +1,7 @@
 <template>
     <div class="mx-auto md:max-w-6xl px-5 py-5 md:py-7 text-center">
         <div class="flex flex-col mb-5 ">
-            <h2 class="text-xl md:text-3xl mb-5">Listen Now!</h2>
+            <h2 class="text-4xl mb-5">Listen Now!</h2>
             
         </div>
         <div class="text-center">
