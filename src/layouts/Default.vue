@@ -17,7 +17,7 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
-        <a class="" href="/"><img src="~/assets/images/nnm-logo.png" width="100px"/></a>
+        <a class="" href="/"><img src="~/assets/images/nnm-logo-updated.png" width="130px"/></a>
       </div>
       <div class="navbar-end">
       </div>
@@ -32,13 +32,7 @@
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
         <div>
         <div class="grid grid-flow-col gap-4">
-          <a href="#" target="_blank">
-            <i class="lab la-twitter text-4xl"></i>
-          </a>
-          <a href="3" target="_blank">
-            <i class="lab la-facebook text-4xl"></i>
-          </a>
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/nonewsmediapodcast/" target="_blank">
             <i class="lab la-instagram text-4xl"></i>
           </a>
         </div>

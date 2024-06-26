@@ -1,18 +1,18 @@
 <template>
-    <div class="flex flex-col items-center gap-8">
+    <div class="flex flex-col items-center py-20 px-20 gap-8">
         <h2 id="about" class="text-4xl">About</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-20">
         <!-- Member -->
         <div class="flex gap-4">
             <!-- Photo -->
-            <img alt="Logo" src="~/assets/images/nnm-logo.png" class="rounded-full w-32" /> 
+            <img alt="Logo" src="~/assets/images/coach-Chandler-Brakefield.jpg" class="rounded-full w-32" /> 
 
             <div class="flex flex-col gap-2">
                 <!-- Name -->
                 <h3 class="font-bold text-lg">Chandler Brakefield</h3>
 
                 <!-- Role -->
-                <span class="font-bold text-sm">Host</span>
+                <span class="font-bold text-sm text-primary">Host</span>
                 <!-- Role -->
                 <span class="text-sm">Social/Producer</span>
 
@@ -36,28 +36,28 @@
         <!-- Member -->
         <div class="flex gap-4">
             <!-- Photo -->
-            <img alt="Logo" src="~/assets/images/nnm-logo.png" class="rounded-full w-32" /> 
+            <img alt="Logo" src="~/assets/images/circles-and-headshot-web.png" class="rounded-full w-32" /> 
 
             <div class="flex flex-col gap-2">
                 <!-- Name -->
                 <h3 class="font-bold text-lg">Jacob Smith</h3>
 
                 <!-- Role -->
-                <span class="font-bold text-sm">Host</span>
+                <span class="font-bold text-sm text-primary">Host</span>
                 <!-- Role -->
                 <span class="text-sm">Producer</span>
 
                 <!-- Socials -->
                 <div class="flex text-accent text-xs">
-                    <a class="btn btn-ghost btn-sm btn-circle">
+                    <a class="btn  btn-sm btn-circle text-primary">
                         <i class="fa-brands fa-github text-lg"></i>
                     </a>
 
-                    <a class="btn btn-ghost btn-sm btn-circle">
+                    <a class="btn btn-primary btn-sm btn-circle">
                         <i class="fa-brands fa-twitter text-lg"></i>
                     </a>
 
-                    <a class="btn btn-ghost btn-sm btn-circle">
+                    <a class="btn btn-primary btn-sm btn-circle">
                         <i class="fa-brands fa-facebook text-lg"></i>
                     </a>
                 </div>

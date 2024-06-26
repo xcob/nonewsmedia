@@ -31,24 +31,12 @@ body {
 }
 
 .hero{
-  background-position: center;
-  background-size: contain;
-  background-repeat: repeat-x;
-  background-size: 200%;
-  background-color: #70EEDB;
 }
 
 @media screen and (min-width: 1200px) {
   .hero{
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-size: 50%;
   }
 }
 
-.hero .hero-content{
-  -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.6);  
+.hero .hero-content{ 
 }
