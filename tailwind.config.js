@@ -5,10 +5,14 @@ module.exports = {
     extend: {
       colors: {
         primary: '#4fa8dd',
+        neonBlue: '#73EFDC',
       },
       fontFamily: {
         primary: ['Inter'],
       },
+      backgroundImage:{
+        'hero-pattern': "url('~/assets/images/hero-background-pattern.png')"
+      }
     },
   },
   daisyui: {
