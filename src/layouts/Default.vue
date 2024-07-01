@@ -32,9 +32,6 @@
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
         <div>
         <div class="grid grid-flow-col gap-4">
-          <a href="https://www.instagram.com/nonewsmediapodcast/" target="_blank">
-            <i class="lab la-instagram text-4xl"></i>
-          </a>
         </div>
       </div>
       

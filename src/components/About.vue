@@ -14,20 +14,20 @@
                 <!-- Role -->
                 <span class="font-bold text-sm text-primary">Host</span>
                 <!-- Role -->
-                <span class="text-sm">Social/Producer</span>
+                <span class="text-sm">Producer/Marketing</span>
 
                 <!-- Socials -->
                 <div class="flex text-accent text-xs">
-                    <a class="btn mr-2 btn-neonBlue btn-sm btn-circle">
-                        <i class="fa-brands fa-github text-lg"></i>
+                    <a class="btn mr-2 btn-sm btn-circle" href="https://www.instagram.com/chandlerbrakefield/" target="_blank">
+                        <i class="lab la-instagram font-normal text-primary text-2xl"></i>
                     </a>
 
-                    <a class="btn mr-2 btn-neonBlue btn-sm btn-circle">
-                        <i class="fa-brands fa-twitter text-lg"></i>
+                    <a class="btn mr-2  btn-sm btn-circle" href="https://www.linkedin.com/in/chandler-brakefield-35a1b8291/" target="_blank">
+                        <i class="lab la-linkedin font-normal text-primary text-2xl"></i>
                     </a>
 
-                    <a class="btn mr-2 btn-neonBlue btn-sm btn-circle">
-                        <i class="fa-brands fa-facebook text-lg text-white"></i>
+                    <a class="btn mr-2 btn-sm btn-circle" href="#" target="_blank">
+                        <i class="lab la-facebook font-normal text-primary text-2xl"></i>
                     </a>
                 </div>
             </div>
@@ -45,20 +45,16 @@
                 <!-- Role -->
                 <span class="font-bold text-sm text-primary">Host</span>
                 <!-- Role -->
-                <span class="text-sm">Producer</span>
+                <span class="text-sm">Producer/Audio</span>
 
                 <!-- Socials -->
                 <div class="flex text-accent text-xs">
-                    <a class="btn mr-2 btn-sm btn-neonBlue btn-circle text-primary">
-                        <i class="fa-brands fa-github text-lg text-primary"></i>
+                    <a class="btn mr-2 btn-sm btn-circle"  href="https://www.instagram.com/theknobshoppe" target="_blank">
+                        <i class="lab la-instagram font-normal text-primary text-2xl"></i>
                     </a>
 
-                    <a class="btn mr-2 btn-neonBlue btn-sm btn-circle">
-                        <i class="fa-brands fa-twitter text-lg"></i>
-                    </a>
-
-                    <a class="btn  btn-neonBlue btn-sm btn-circle">
-                        <i class="fa-brands fa-facebook text-lg"></i>
+                    <a class="btn mr-2 btn-sm btn-circle" href="https://www.linkedin.com/in/jacob-smith-279060150/" target="_blank">
+                        <i class="lab la-linkedin font-normal text-primary text-2xl"></i>
                     </a>
                 </div>
             </div>

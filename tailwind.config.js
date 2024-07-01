@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: '#4fa8dd',
         neonBlue: '#73EFDC',
+        nnmBlue: '#4EA8DD',
       },
       fontFamily: {
         primary: ['Inter'],
