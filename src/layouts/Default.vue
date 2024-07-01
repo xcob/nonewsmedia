@@ -11,11 +11,12 @@
               <li><a class="" href="/"><img src="~/assets/images/slashes.png" width="75px"/></a></li>
               <li><a href="/">Homepage</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="/episodes" disable>Episodes</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class="navbar-center flex">
         <!-- TODO: You can add menu here -->
         <a class="" href="/"><img src="~/assets/images/nnm-logo-updated.png" width="130px"/></a>
       </div>

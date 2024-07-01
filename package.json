@@ -40,7 +40,8 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.4",
     "daisyui": "^4.5.0",
-    "postcss-custom-properties": "^13.3.4"
+    "postcss-custom-properties": "^13.3.4",
+    "vue-rss-feed": "^0.2.4"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,7 @@
                         <img class="ml-24 md:ml-24 w-48 md:w-48 lg:w-60"  src="~/assets/images/jake-head-w-circle.png" />
                 </div>
                 <div class="flex flex-col lg:order-first justify-center">
-                    <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold px-20 pt-4 md:pt-0 mb-6 text-white">A Good <br /> Podcast!</h1>
+                    <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold px-20 pt-4 md:pt-0 mb-6 text-white">A <span class="">Good</span> <br /> Podcast!</h1>
                     <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg max-w-xl px-20 mb-6 text-white">No News Media is a light-hearted podcast hosted by two friends who are separated by 10 years. Join in on the fun!</p>
                     <div class="button-container px-20">
                         <a
