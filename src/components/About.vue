@@ -36,7 +36,7 @@
         <!-- Member -->
         <div class="flex gap-4">
             <!-- Photo -->
-            <img alt="Logo" src="~/assets/images/jake-head-w-circle.png" class="w-40" /> 
+            <img alt="Logo" src="~/assets/images/jake-headshot-w-lower-circle.png" class="w-40" /> 
 
             <div class="flex flex-col gap-2">
                 <!-- Name -->

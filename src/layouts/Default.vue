@@ -11,7 +11,7 @@
               <li><a class="" href="/"><img src="~/assets/images/slashes.png" width="75px"/></a></li>
               <li><a href="/">Homepage</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="/episodes" disable>Episodes</a></li>
+              <li><a href="/episodes" class="disabled:opacity-75">Episodes</a></li>
             </ul>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default {
       localStorage.setItem('daisyui-theme', 'winter');
     });
     onMounted(() => {
-      theme.value = localStorage.getItem('daisyui-theme') || 'dark';
+      theme.value = localStorage.getItem('daisyui-theme');
     });
     return {
       theme,

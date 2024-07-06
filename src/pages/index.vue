@@ -108,7 +108,7 @@ export default {
       title: 'No News Media | Podcast',
       description: 'No News Media is a fun, easy listening podcast between two friends.',
       link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'icon', type: 'image/png', href: '/favicon.ico' },
       ],
       meta: [
         {
