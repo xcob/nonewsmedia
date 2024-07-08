@@ -1,5 +1,5 @@
 <template>
-  <div :data-theme="theme">
+  <div data-theme="winter">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
         <div class="flex-none">
