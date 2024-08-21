@@ -10,7 +10,7 @@
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a class="" href="/"><img src="~/assets/images/slashes.png" width="75px"/></a></li>
               <li><a href="/">Homepage</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="/#about">About</a></li>
               <li><a href="/episodes" class="disabled:opacity-75">Episodes</a></li>
             </ul>
           </div>
@@ -28,14 +28,14 @@
       <div>
         <h3 class="text-2xl md:text-3xl font-bold">No News Media</h3>
         <p class="md:font-bold">
-          Podcast 
+          Podcast
         </p>
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
         <div>
         <div class="grid grid-flow-col gap-4">
         </div>
       </div>
-      
+
       </div>
     </footer>
   </div>

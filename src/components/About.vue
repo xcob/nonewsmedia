@@ -5,7 +5,7 @@
         <!-- Member -->
         <div class="flex gap-4">
             <!-- Photo -->
-            <img alt="Logo" src="~/assets/images/chan-head-w-circle.png" class="w-40" /> 
+            <img alt="Logo" src="~/assets/images/chan-head-w-circle.png" class="w-40" />
 
             <div class="flex flex-col gap-2">
                 <!-- Name -->
@@ -26,9 +26,9 @@
                         <i class="lab la-linkedin font-normal text-primary text-2xl"></i>
                     </a>
 
-                    <a class="btn mr-2 btn-sm btn-circle" href="#" target="_blank">
+                    <!-- <a class="btn mr-2 btn-sm btn-circle" href="#" target="_blank">
                         <i class="lab la-facebook font-normal text-primary text-2xl"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
         <!-- Member -->
         <div class="flex gap-4">
             <!-- Photo -->
-            <img alt="Logo" src="~/assets/images/jake-headshot-w-lower-circle.png" class="w-40" /> 
+            <img alt="Logo" src="~/assets/images/jake-headshot-w-lower-circle.png" class="w-40" />
 
             <div class="flex flex-col gap-2">
                 <!-- Name -->
