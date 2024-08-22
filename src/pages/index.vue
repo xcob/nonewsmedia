@@ -3,14 +3,7 @@
   <Hero />
   <About />
   <PodcastLinks />
-  
-  
-
-
-
-
-<!-- 
-  <generic-panel>
+<!--   <generic-panel>
     <div class="flex flex-col mb-5">
       <h1 class="text-xl md:text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
       <p class="md:text-lg">Check <a class="text-primary" href="https://michalsnik.github.io/aos/" target="_blank">AOS.js documentation</a> for more animations.</p>
@@ -24,9 +17,6 @@
       </div>
     </div>
   </generic-panel>
-
- 
-  
 
   <generic-panel>
     <div class="flex flex-col">
@@ -57,8 +47,7 @@
     </div>
   </generic-panel>
 
-
-  <generic-panel>
+<generic-panel>
     <div class="flex flex-col">
       <h1 class="md:text-xl mb-5 font-bold">Footers</h1>
       <footer class="footer p-10 bg-base-200 text-base-content">
@@ -83,23 +72,18 @@
           <a class="link link-hover">Cookie policy</a>
         </div>
       </footer>
-      
     </div>
   </generic-panel> -->
-
 
 </template>
 
 <script>
 import { useHead } from '#app';
 import { definePageMeta } from '#imports';
-import GenericPanel from '~/components/commons/GenericPanel';
+// import GenericPanel from '~/components/commons/GenericPanel';
 import ogBanner from '../assets/images/nnm-logo.png';
 
 export default {
-  components: {
-    GenericPanel,
-  },
   setup () {
     definePageMeta({
       layout: 'default',
