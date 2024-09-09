@@ -2,6 +2,16 @@
 
 const episodes = [
   {
+    name: 'episode 33',
+    iframe: 'https://open.spotify.com/embed/episode/6TdwPByfAdwq5HjUoI6fT0?utm_source=generator',
+    id: 33,
+  },
+  {
+    name: 'episode 32',
+    iframe: 'https://open.spotify.com/embed/episode/34sWL1GJ9SrEZLbaLWYgDr?utm_source=generator',
+    id: 32,
+  },
+  {
     name: 'episode 31',
     iframe: 'https://open.spotify.com/embed/episode/0CdZGZOt6JwO8OziAE4J7M?utm_source=generator',
     id: 31,
@@ -47,7 +57,7 @@ const episodes = [
 
 <template>
   <div class="flex justify-center pt-44 pb-16">
-    <h1 class="text-2xl md:text-5xl">Episodes!</h1>
+    <h1 class="text-2xl md:text-5xl text-primary text-center mb-4" data-aos="fade-down">Episodes!</h1>
   </div>
    <div class="grid md:grid-cols-2 gap-10 px-4 mx-auto max-w-screen-lg pb-16">
       <EpisodeList v-for="widget of episodes" :key="episodes.id" :episode="widget"></EpisodeList>

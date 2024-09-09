@@ -11,7 +11,8 @@
               <li><a class="" href="/"><img src="~/assets/images/slashes.png" width="75px"/></a></li>
               <li><a href="/">Homepage</a></li>
               <li><a href="/#about">About</a></li>
-              <li><a href="/episodes" class="disabled:opacity-75">Episodes</a></li>
+              <li><a href="/episodes">Episodes</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>

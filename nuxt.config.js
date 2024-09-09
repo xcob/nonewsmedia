@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     'nuxt-gtag',
+    '@nuxt/content',
   ],
 
   gtag: {
@@ -21,6 +22,7 @@ export default defineNuxtConfig({
   srcDir: './src',
 
   runtimeConfig: {
+    web3FormKey: process.env.web3key,
     public: {
       yourEnv: process.env.YOUR_ENV,
     },
