@@ -22,9 +22,9 @@ export default defineNuxtConfig({
   srcDir: './src',
 
   runtimeConfig: {
-    web3FormKey: process.env.web3key,
+    web3FormKey: process.env.WEB_3_KEY,
     public: {
-      yourEnv: process.env.YOUR_ENV,
+      form: process.env.WEB_3_KEY,
     },
   },
 

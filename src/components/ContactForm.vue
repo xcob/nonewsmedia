@@ -4,7 +4,7 @@ import { ref } from 'vue';
 const config = useRuntimeConfig();
 
 const form = ref({
-  access_key: config.web3FormKey,
+  access_key: config.public.form,
   subject: 'New Submission from No News Media',
   name: '',
   email: '',
@@ -14,6 +14,7 @@ const form = ref({
 
 const result = ref('');
 const status = ref('');
+const displayMessage = ref('');
 
 const submitForm = async () => {
   result.value = 'Please wait...';
@@ -29,7 +30,7 @@ const submitForm = async () => {
     result.value = response.message;
 
     if (response.status === 200) {
-      status.value = 'success';
+      status.value = 'Success';
     } else {
       console.log(response); // Log for debugging, can be removed
       status.value = 'error';
@@ -43,6 +44,7 @@ const submitForm = async () => {
     form.value.name = '';
     form.value.email = '';
     form.value.message = '';
+    form.value.displayMessage = 'Sent!';
 
     // Clear result and status after 5 seconds
     setTimeout(() => {
@@ -69,6 +71,7 @@ const submitForm = async () => {
             </label>
             <textarea name="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" rows="8" v-model="form.message"></textarea>
             <button type="submit" class="bg-primary hover:bg-primary/50 text-white font-bold mt-4 py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send Message</button>
+            <div>{{ displayMessage }}</div>
         </form>
     </div>
 </template>

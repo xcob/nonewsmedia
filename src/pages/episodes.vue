@@ -56,10 +56,8 @@ const episodes = [
 </script>
 
 <template>
-  <div class="flex justify-center pt-44 pb-16">
-    <h1 class="text-2xl md:text-5xl text-primary text-center mb-4" data-aos="fade-down">Episodes!</h1>
-  </div>
+    <MainHeading>Episodes</MainHeading>
    <div class="grid md:grid-cols-2 gap-10 px-4 mx-auto max-w-screen-lg pb-16">
-      <EpisodeList v-for="widget of episodes" :key="episodes.id" :episode="widget"></EpisodeList>
+      <EpisodeList v-for="singleEP of episodes" :key="singleEP.id" :episode="singleEP"></EpisodeList>
     </div>
 </template>

@@ -11,9 +11,9 @@ module.exports = {
       fontFamily: {
         primary: ['Inter'],
       },
-      backgroundImage:{
-        'hero-pattern': "url('~/assets/images/hero-background-pattern.png')"
-      }
+      backgroundImage: {
+        'hero-pattern': "url('~/assets/images/hero-background-pattern.png')",
+      },
     },
   },
   daisyui: {

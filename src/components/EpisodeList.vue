@@ -7,6 +7,7 @@ defineProps(['episode']);
     <div class="grid">
         <iframe style="border-radius:12px"
         data-aos="fade-up"
+        :id=episode.id
         data-aos-delay="500"
         :src=episode.iframe
         width="100%"
