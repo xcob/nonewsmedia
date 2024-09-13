@@ -1,10 +1,9 @@
 <script setup>
 import { ref } from 'vue';
-
-const config = useRuntimeConfig();
+// import { getEmailKey } from 'emailHelper';
 
 const form = ref({
-  access_key: config.public.form,
+  access_key: '4f58bbb6-c649-40a0-a1c6-a8ee7efdda9e',
   subject: 'New Submission from No News Media',
   name: '',
   email: '',
@@ -31,6 +30,7 @@ const submitForm = async () => {
 
     if (response.status === 200) {
       status.value = 'Success';
+      displayMessage.value = 'Sent!';
     } else {
       console.log(response); // Log for debugging, can be removed
       status.value = 'error';
@@ -44,7 +44,6 @@ const submitForm = async () => {
     form.value.name = '';
     form.value.email = '';
     form.value.message = '';
-    form.value.displayMessage = 'Sent!';
 
     // Clear result and status after 5 seconds
     setTimeout(() => {
